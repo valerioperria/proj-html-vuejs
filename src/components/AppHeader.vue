@@ -4,7 +4,7 @@ export default {
         return {
             openHours: [
                 {
-                    icon: "fa-regular fa-clock",
+                    icon: "fa-solid fa-clock",
                     text: "Open Hours: Mon - Sat - 9:00-18:00"
                 },
             ],
