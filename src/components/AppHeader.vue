@@ -165,7 +165,7 @@ export default {
                 font-size: 4rem;
 
                 .costumer {
-                    background-color: rgba(13, 128, 130, 0.232);
+                    background-color: $primaryBg;
                     padding: 0 0.5rem;
                 }
             }

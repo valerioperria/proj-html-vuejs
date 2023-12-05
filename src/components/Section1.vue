@@ -58,7 +58,7 @@ export default {
         i{
             color: $primaryColor;
             font-size: 1.5rem;
-            background-color: rgba(13, 128, 130, 0.232);
+            background-color: $primaryBg;
             width: 60px;
             height: 60px;
             line-height: 60px;
