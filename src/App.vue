@@ -1,12 +1,14 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
+import Section1 from "./components/Section1.vue";
 export default {
-  components: { AppHeader },
+  components: { AppHeader, Section1, },
 }; 
 </script>
 
 <template>
   <AppHeader />
+  <Section1 />
 </template>
 
 <style lang="scss">
