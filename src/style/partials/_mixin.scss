@@ -1,6 +1,6 @@
 @mixin button{
-    margin-left: 1rem;
-    padding: 0.7rem 1rem;
+    margin-left: 16px;
+    padding: 12px 16px;
     border: none;
     border-radius: 4px;
     background-color: rgb(13, 129, 130);
@@ -11,7 +11,7 @@
 };
 
 @mixin darkButton{
-    padding: 0.7rem 1rem;
+    padding: 11px 15px;
     border: 1px solid rgb(13, 129, 130);
     color: white;
     border-radius: 4px;
