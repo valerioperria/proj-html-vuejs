@@ -40,12 +40,13 @@ export default {
 @use "../style/partials/mixin" as *;
 
 .container{
-    @include  flex(flex, row, center, center, wrap, 1.5rem);
+    @include  flex(flex, row, center, center, wrap, 2.5rem);
     background-color: $bgSectionLight;
     width: 100%;
     height: 550px;
+    padding: 0 350px;
     .card{
-        width: 350px;
+        width: 370px;
         height: 300px;
         @include  flex(flex, column, center, baseline, wrap, 1rem);
         padding: 2rem;
