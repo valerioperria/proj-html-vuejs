@@ -31,6 +31,62 @@ export default {
 
 <template>
     <div class="container">
+        <svg class="svgUp" width="150" height="100">
+            <defs>
+                <pattern width="150" height="100" id="dotted-texture" patternContentUnits="userSpaceOnUse"
+                    patternUnits="userSpaceOnUse" fill="rgba(13, 128, 130, 0.232)">
+                    <g id="row-1">
+                        <ellipse cx="5" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="20" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="35" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="50" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="65" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="80" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="95" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="110" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="125" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="140" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    </g>
+                    <g id="row-2">
+                        <ellipse cx="5" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="20" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="35" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="50" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="65" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="80" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="95" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="110" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="125" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="140" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    </g>
+                    <g id="row-3">
+                        <ellipse cx="5" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="20" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="35" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="50" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="65" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="80" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="95" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="110" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="125" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="140" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    </g>
+                    <g id="row-4">
+                        <ellipse cx="5" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="20" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="35" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="50" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="65" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="80" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="95" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="110" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="125" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="140" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    </g>
+                </pattern>
+            </defs>
+            <rect width="150" height="100" x="0" y="0" fill="url(#dotted-texture)"></rect>
+        </svg>
         <div class="wrapper">
             <h5><strong>ABOUT THE NETWORK</strong></h5>
             <h1><strong class="the">The</strong><strong>Company</strong></h1>
@@ -48,17 +104,84 @@ export default {
             </ul>
         </div>
         <div class="img"></div>
-    </div>
-</template>
+        <svg class="svgDown" width="150" height="100">
+            <defs>
+                <pattern width="150" height="100" id="dotted-texture" patternContentUnits="userSpaceOnUse"
+                    patternUnits="userSpaceOnUse" fill="rgba(13, 128, 130, 0.232)">
+                    <g id="row-1">
+                        <ellipse cx="5" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="20" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="35" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="50" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="65" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="80" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="95" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="110" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="125" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="140" cy="5" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    </g>
+                    <g id="row-2">
+                        <ellipse cx="5" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="20" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="35" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="50" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="65" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="80" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="95" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="110" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="125" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                        <ellipse cx="140" cy="20" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    </g>
+                    <g id="row-3">
+                        <ellipse cx="5" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="20" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="35" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="50" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="65" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="80" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="95" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="110" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="125" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="140" cy="35" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                </g>
+                <g id="row-4">
+                    <ellipse cx="5" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="20" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="35" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="50" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="65" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="80" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="95" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="110" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="125" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                    <ellipse cx="140" cy="50" rx="3" ry="3" style="stroke:none;stroke-width:0"></ellipse>
+                </g>
+            </pattern>
+        </defs>
+        <rect width="150" height="100" x="0" y="0" fill="url(#dotted-texture)"></rect>
+    </svg>
+</div></template>
 
-<style lang="scss" scoped>
-@use "../style/partials/variables" as *;
+<style lang="scss" scoped>@use "../style/partials/variables" as *;
 @use "../style/partials/mixin" as *;
 
 .container {
     width: 100%;
     height: 800px;
     @include flex(flex, row, center, center, nowrap, 0);
+    position: relative;
+
+    .svgUp {
+        position: absolute;
+        top: -3.5%;
+        right: 45.8%;
+    }
+
+    .svgDown {
+        position: absolute;
+        bottom: -9.1%;
+        right: 45.8%;
+    }
 
     .wrapper {
         height: 100%;
@@ -74,6 +197,7 @@ export default {
         h1 {
             font-size: 3rem;
             margin-bottom: 2rem;
+
             .the {
                 color: $primaryColor;
                 background-color: $primaryBg;
@@ -97,7 +221,8 @@ export default {
                 .list {
                     @include flex(flex, row, baseline, center, wrap, 8px);
                     margin-bottom: 1rem;
-                    i{
+
+                    i {
                         color: $primaryColor;
                         font-size: 1.5rem;
                     }
@@ -117,5 +242,4 @@ export default {
         background-image: url(../assets/img/about-3.jpg);
         background-size: cover;
     }
-}
-</style>
+}</style>
