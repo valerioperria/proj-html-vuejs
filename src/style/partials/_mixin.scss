@@ -20,7 +20,15 @@
         border-color: rgb(0, 164, 164);
         background-color: rgb(0, 164, 164);
     }
-}
+};
+
+@mixin darkButtonNoHover{
+    padding: 11px 15px;
+    border: 1px solid rgb(13, 129, 130);
+    color: white;
+    border-radius: 4px;
+    background-color: transparent;
+};
 
 @mixin flex($display, $direction, $justfy, $align, $wrap, $gap){
     display: $display;
