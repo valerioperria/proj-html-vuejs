@@ -3,8 +3,9 @@ import AppHeader from "./components/AppHeader.vue";
 import Section1 from "./components/Section1.vue";
 import Section2 from "./components/Section2.vue";
 import Section3 from "./components/Section3.vue";
+import Section4 from "./components/Section4.vue";
 export default {
-  components: { AppHeader, Section1, Section2, Section3},
+  components: { AppHeader, Section1, Section2, Section3, Section4 },
 }; 
 </script>
 
@@ -13,6 +14,7 @@ export default {
   <Section1 />
   <Section2 />
   <Section3 />
+  <Section4/>
 </template>
 
 <style lang="scss">
