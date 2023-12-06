@@ -152,7 +152,7 @@ export default {
     }
 
     .cards {
-        @include flex(flex, row, baseline, center, wrap, 2rem);
+        @include flex(flex, row, space-between, center, wrap, 2rem);
         width: 100%;
         height: 460px;
 
