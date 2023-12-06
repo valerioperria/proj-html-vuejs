@@ -60,7 +60,7 @@ export default {
                 </div>
                 <div class="menu">
                     <ul>
-                        <li v-for="item in menu"><strong>{{ item.title }}</strong></li>
+                        <li v-for="item in menu"><a href=""><strong>{{ item.title }}</strong></a></li>
                     </ul>
                     <button><strong>GET IN TOUCH</strong></button>
                 </div>
@@ -138,14 +138,23 @@ export default {
             .menu {
                 display: flex;
                 align-items: center;
-                color: white;
+                
 
                 ul {
                     display: flex;
                     list-style: none;
 
                     li {
-                        margin-left: 1rem
+                        margin-left: 1rem;
+                        a{
+                            color: white;
+                            text-decoration: none;
+
+                            &:hover{
+                                text-decoration: underline
+                            }
+                        }
+                        
                     }
                 }
 
